@@ -8,7 +8,7 @@ from coalib.settings.DocstringMetadata import DocstringMetadata
 
 class FunctionMetadata:
     str_nodesc = 'No description given.'
-    str_optional = "Optional, defaults to '{}'."
+    # str_optional = "Optional, defaults to '{}'."
 
     @enforce_signature
     def __init__(self,
